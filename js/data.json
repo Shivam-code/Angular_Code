@@ -1,0 +1,38 @@
+[{
+        "name": "HURACÁN PERFORMANTE",
+        "company": "Lamborghini",
+        "engine": "",
+        "image": "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/model/huracan/huracan-performante/gallery/img%20gallery%205-huracan-performante.jpg"
+    },
+    {
+        "name": "Huracán Coupé",
+        "company": "Lamborghini",
+        "engine": "",
+        "image": "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/model/huracan/huracan-coupe/gallery/Huracan_Coupe_6.jpg"
+    },
+    {
+        "name": "Huracán Spyder",
+        "company": "Lamborghini",
+        "engine": "",
+        "image": "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/model/huracan/huracan-spyder/gallery/Huracan_Spyder_4.jpg"
+    },
+    {
+        "name": "Huracán RWD Coupé",
+        "company": "Lamborghini",
+        "engine": "",
+        "image": "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/model/huracan/huracan-rwd/gallery/Huracan_RWD_6.jpg"
+    },
+    {
+        "name": "Huracán RWD Spyder",
+        "company": "Lamborghini",
+        "engine": "",
+        "image": "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/model/huracan/huracan-rwd-spyder/gallery/img-gallery-5.jpg"
+    },
+    {
+        "name": "HURACÁN AVIO",
+        "company": "Lamborghini",
+        "engine": "",
+        "image": "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/model/huracan/huracan-avio/Gallery/Huracan_Avio_8.jpg"
+    }
+
+]

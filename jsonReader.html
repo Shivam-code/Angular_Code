@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <title>JSONRead</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js"></script>
+    <script type="text/javascript" src="js/jsonReaderController.js"></script>
+</head>
+
+<body>
+    <div ng-app="jsonApp" ng-controller="jsonController">
+        <ul ng-repeat="var in list">
+            <li>
+                <strong>{{var.name}}</strong> <em>{{var.company}}</em>
+                <img src="{{var.image}}" /> </li>
+        </ul>
+    </div>
+</body>
+
+</html>
