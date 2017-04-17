@@ -16,21 +16,28 @@
 <body>
     <div ng-app="jsonApp" ng-controller="jsonController">
         <div class="container">
-            <div class="row">
-                <input type="text" ng-model="search">
-                <ul ng-repeat="var in list | filter : search" class="list-unstyled">
-                    <li>
-                        <div class="col-sm-6 col-md-4">
-                            <div class="thumbnail">
-                                <img class="img-rounded thumb" src="{{var.image}}" alt="{{var.image}}">
-                                <div class="caption">
-                                    <h3>{{var.name}}</h3>
-                                    <p><em>{{var.company}}</em></p>
+            <div class="container">
+                <div class="row">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Filter Results</span>
+                        <input type="text" ng-model="search" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <ul ng-repeat="var in list | filter : search" class="list-unstyled">
+                        <li>
+                            <div class="col-sm-6 col-md-4">
+                                <div class="thumbnail">
+                                    <img class="img-rounded thumb" src="{{var.image}}" alt="{{var.image}}">
+                                    <div class="caption">
+                                        <h3>{{var.name}}</h3>
+                                        <p><em>{{var.company}}</em></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
